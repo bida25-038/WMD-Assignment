@@ -1,2 +1,2 @@
-# Thato-ROCK-OF-AGES-
-Rock Of Ages is a book store based on Christian Theology books
+# Veritas (Latin for Truth) 
+Veritas (Latin for Truth) is a book store based on Christian  books and products#.
