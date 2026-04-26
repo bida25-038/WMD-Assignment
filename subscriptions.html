@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Comic Cove Subscriptions – Stay updated and never miss an issue." />
+  <meta name="author" content="The Comic Cove" />
+  <title>Subscriptions | The Comic Cove</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════ NAVIGATION ══════════════════ -->
+  <nav class="navbar navbar-cove navbar-expand-lg" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">THE <span>COMIC</span> COVE</a>
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav gap-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">New Releases</a></li>
+          <li class="nav-item"><a class="nav-link" href="catalogue.html">Catalogue</a></li>
+          <li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
+          <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+          <li class="nav-item"><a class="nav-link active" href="subscriptions.html">Subscriptions</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══════════════════ HERO ══════════════════ -->
+  <section class="hero-banner" aria-labelledby="subHeading">
+    <div class="container">
+      <p class="text-red fw-oswald mb-2" style="letter-spacing:3px; font-size:0.85rem;">CHOOSE YOUR PLAN</p>
+      <h1 id="subHeading">SUBSCRIPTIONS</h1>
+      <p class="mt-3">Stay updated and never miss an issue.</p>
+    </div>
+  </section>
+
+  <main>
+
+    <!-- ══════════════════ PLANS ══════════════════ -->
+    <section class="section-pad" aria-labelledby="plansHeading">
+      <div class="container">
+        <h2 class="section-title text-center" id="plansHeading"
+            style="border-left:none; border-bottom: 2px solid var(--color-red); padding-bottom:14px; padding-left:0; margin-bottom:40px;">
+          Pick the Plan That Suits You
+        </h2>
+
+        <div class="row g-4 justify-content-center">
+
+          <!-- BASIC -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="plan-card" aria-label="Basic Plan">
+              <h3>Basic Plan</h3>
+              <div class="plan-price">P124</div>
+              <p class="plan-period">.99 / month</p>
+              <ul>
+                <li>Monthly newsletter</li>
+                <li>Early access to new releases</li>
+                <li>New release alerts</li>
+                <li>10% discount on purchases</li>
+                <li>Exclusive member profile</li>
+              </ul>
+              <a href="contact.html" class="btn-outline-cove w-100 d-block text-center">SUBSCRIBE</a>
+            </article>
+          </div>
+
+          <!-- PREMIUM (featured) -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="plan-card featured" aria-label="Premium Plan – Most Popular">
+              <div class="plan-badge">Most Popular</div>
+              <h3>Premium Plan</h3>
+              <div class="plan-price">P249</div>
+              <p class="plan-period">.99 / month</p>
+              <ul>
+                <li>All Basic features</li>
+                <li>All Basic+ features</li>
+                <li>Early access &amp; reservations</li>
+                <li>20% discount on purchases</li>
+                <li>Exclusive member events</li>
+                <li>Monthly mystery comic bundle</li>
+              </ul>
+              <a href="contact.html" class="btn-cove w-100 d-block text-center">SUBSCRIBE</a>
+            </article>
+          </div>
+
+          <!-- ULTIMATE -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="plan-card" aria-label="Ultimate Plan">
+              <h3>Ultimate Plan</h3>
+              <div class="plan-price">P424</div>
+              <p class="plan-period">.99 / month</p>
+              <ul>
+                <li>All premium features</li>
+                <li>All premium+ features</li>
+                <li>All premium+ features</li>
+                <li>Free shipping on all orders</li>
+                <li>Exclusive member rewards</li>
+                <li>Personal comic curator</li>
+                <li>Signed editions access</li>
+              </ul>
+              <a href="contact.html" class="btn-gold w-100 d-block text-center">SUBSCRIBE</a>
+            </article>
+          </div>
+
+        </div><!-- .row plans -->
+
+        <!-- Compare table -->
+        <div class="mt-5">
+          <h3 class="section-title">Plan Comparison</h3>
+          <div class="table-responsive">
+            <table class="table" style="--bs-table-bg: var(--color-surface); --bs-table-color: var(--color-text); --bs-table-border-color: var(--color-border); --bs-table-striped-bg: var(--color-surface2);">
+              <thead>
+                <tr>
+                  <th scope="col" style="font-family:var(--font-heading); letter-spacing:1px; color:var(--color-muted);">Feature</th>
+                  <th scope="col" class="text-center" style="font-family:var(--font-heading); letter-spacing:1px;">Basic</th>
+                  <th scope="col" class="text-center" style="font-family:var(--font-heading); letter-spacing:1px; color:var(--color-red);">Premium</th>
+                  <th scope="col" class="text-center" style="font-family:var(--font-heading); letter-spacing:1px; color:var(--color-gold);">Ultimate</th>
+                </tr>
+              </thead>
+              <tbody class="table-striped">
+                <tr>
+                  <td>Monthly Newsletter</td>
+                  <td class="text-center text-red"><i class="bi bi-check-lg"></i></td>
+                  <td class="text-center text-red"><i class="bi bi-check-lg"></i></td>
+                  <td class="text-center text-red"><i class="bi bi-check-lg"></i></td>
+                </tr>
+                <tr>
+                  <td>Early Access to New Releases</td>
+                  <td class="text-center text-red"><i class="bi bi-check-lg"></i></td>
+                  <td class="text-center text-red"><i class="bi bi-check-lg"></i></td>
+                  <td class="text-center text-red"><i class="bi bi-check-lg"></i></td>
+                </tr>
+                <tr>
+                  <td>Discount on Purchases</td>
+                  <td class="text-center text-muted-cc">10%</td>
+                  <td class="text-center text-muted-cc">20%</td>
+                  <td class="text-center text-muted-cc">30%</td>
+                </tr>
+                <tr>
+                  <td>Monthly Mystery Bundle</td>
+                  <td class="text-center" style="color:var(--color-border);"><i class="bi bi-x-lg"></i></td>
+                  <td class="text-center text-red"><i class="bi bi-check-lg"></i></td>
+                  <td class="text-center text-red"><i class="bi bi-check-lg"></i></td>
+                </tr>
+                <tr>
+                  <td>Free Shipping</td>
+                  <td class="text-center" style="color:var(--color-border);"><i class="bi bi-x-lg"></i></td>
+                  <td class="text-center" style="color:var(--color-border);"><i class="bi bi-x-lg"></i></td>
+                  <td class="text-center text-red"><i class="bi bi-check-lg"></i></td>
+                </tr>
+                <tr>
+                  <td>Personal Comic Curator</td>
+                  <td class="text-center" style="color:var(--color-border);"><i class="bi bi-x-lg"></i></td>
+                  <td class="text-center" style="color:var(--color-border);"><i class="bi bi-x-lg"></i></td>
+                  <td class="text-center text-red"><i class="bi bi-check-lg"></i></td>
+                </tr>
+                <tr>
+                  <td>Exclusive Member Events</td>
+                  <td class="text-center" style="color:var(--color-border);"><i class="bi bi-x-lg"></i></td>
+                  <td class="text-center text-red"><i class="bi bi-check-lg"></i></td>
+                  <td class="text-center text-red"><i class="bi bi-check-lg"></i></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════ FAQ ══════════════════ -->
+    <section class="section-pad bg-surface" aria-labelledby="faqHeading">
+      <div class="container">
+        <h2 class="section-title" id="faqHeading">Frequently Asked Questions</h2>
+        <div class="accordion" id="faqAccordion"
+             style="--bs-accordion-bg: var(--color-surface2); --bs-accordion-color: var(--color-text); --bs-accordion-border-color: var(--color-border); --bs-accordion-btn-color: var(--color-text); --bs-accordion-btn-bg: var(--color-surface2); --bs-accordion-active-bg: var(--color-surface); --bs-accordion-active-color: var(--color-red); --bs-accordion-btn-focus-box-shadow: none;">
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                Can I cancel my subscription at any time?
+              </button>
+            </h3>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body" style="font-size:0.9rem; color:var(--color-muted);">
+                Yes. You may cancel your subscription at any time from your account dashboard or by contacting us. Cancellations take effect at the end of the current billing period.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                Can I upgrade or downgrade my plan?
+              </button>
+            </h3>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body" style="font-size:0.9rem; color:var(--color-muted);">
+                Absolutely. You can change your plan at any time. Upgrades take effect immediately; downgrades take effect at the next billing cycle.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                What payment methods are accepted?
+              </button>
+            </h3>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body" style="font-size:0.9rem; color:var(--color-muted);">
+                We accept Visa, Mastercard, Orange Money, MyZaka and direct bank transfers. All transactions are secured and encrypted.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                Do subscriptions include in-store purchases?
+              </button>
+            </h3>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body" style="font-size:0.9rem; color:var(--color-muted);">
+                Yes. Your subscriber discount applies to both in-store and online purchases. Simply present your membership card or account ID at checkout.
+              </div>
+            </div>
+          </div>
+
+        </div><!-- accordion -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════════ FOOTER ══════════════════ -->
+  <footer class="footer-cove" aria-label="Site footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="footer-brand">THE <span>COMIC</span> COVE</div>
+          <p>Your local comic shop with a passion for stories and community.</p>
+          <div class="social-icons mt-3">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-md-2">
+          <h6>Quick Links</h6>
+          <ul>
+            <li><a href="index.html">New Releases</a></li>
+            <li><a href="catalogue.html">Catalogue</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="subscriptions.html">Subscriptions</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2">
+          <h6>Help</h6>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="subscriptions.html">Membership</a></li>
+            <li><a href="#">Shipping Policy</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4">
+          <h6>Follow Us</h6>
+          <p>Stay connected for exclusive deals, new arrivals and community events.</p>
+          <p class="mt-2"><i class="bi bi-geo-alt-fill text-red me-1"></i> 123 Mogotlho Lane, Gaborone, Botswana</p>
+          <p><i class="bi bi-telephone-fill text-red me-1"></i> (+267) 7123 4567</p>
+          <p><i class="bi bi-envelope-fill text-red me-1"></i> info@thecomicove.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="mb-0">&copy; 2026 The Comic Cove. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" aria-label="Scroll to top"><i class="bi bi-chevron-up"></i></button>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Comic Cove Events – Join us for exciting events, signings and game nights." />
+  <meta name="author" content="The Comic Cove" />
+  <title>Events | The Comic Cove</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════ NAVIGATION ══════════════════ -->
+  <nav class="navbar navbar-cove navbar-expand-lg" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">THE <span>COMIC</span> COVE</a>
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav gap-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">New Releases</a></li>
+          <li class="nav-item"><a class="nav-link" href="catalogue.html">Catalogue</a></li>
+          <li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
+          <li class="nav-item"><a class="nav-link active" href="events.html">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="subscriptions.html">Subscriptions</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══════════════════ HERO ══════════════════ -->
+  <section class="hero-banner" aria-labelledby="eventsHeading">
+    <div class="container">
+      <p class="text-red fw-oswald mb-2" style="letter-spacing:3px; font-size:0.85rem;">WHAT'S ON AT THE COVE</p>
+      <h1 id="eventsHeading">EVENTS</h1>
+      <p class="mt-3">Join us for exciting events, signings and game nights.</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="section-pad">
+      <div class="container">
+        <div class="row g-5">
+
+          <!-- ── UPCOMING EVENTS ── -->
+          <div class="col-12 col-lg-7">
+            <!-- Tabs -->
+            <ul class="nav nav-tabs-cove mb-0" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="upcoming-tab" data-bs-toggle="tab"
+                        data-bs-target="#upcoming" type="button" role="tab"
+                        aria-controls="upcoming" aria-selected="true">
+                  Upcoming Events
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="past-tab" data-bs-toggle="tab"
+                        data-bs-target="#past" type="button" role="tab"
+                        aria-controls="past" aria-selected="false">
+                  Past Events
+                </button>
+              </li>
+            </ul>
+
+            <div class="tab-content mt-3">
+              <!-- UPCOMING -->
+              <div class="tab-pane fade show active" id="upcoming" role="tabpanel" aria-labelledby="upcoming-tab">
+
+                <article class="event-card" aria-label="Event: Comic Con Gaborone">
+                  <div class="event-img" aria-hidden="true"><i class="bi bi-stars"></i></div>
+                  <div>
+                    <span class="event-badge">Upcoming</span>
+                    <h5>Comic Con Gaborone 2026</h5>
+                    <p class="event-meta"><i class="bi bi-calendar3 me-1"></i> Sat 30 May 2026, 9:00 AM – 5:00 PM</p>
+                    <p>Short description of the event. Annual convention featuring panels, cosplay and special guest appearances.</p>
+                    <a href="contact.html" class="btn-cove mt-2" style="padding:6px 16px; font-size:0.8rem;">REGISTER NOW</a>
+                  </div>
+                </article>
+
+                <article class="event-card" aria-label="Event: Creator Signing Night">
+                  <div class="event-img" aria-hidden="true"><i class="bi bi-pen"></i></div>
+                  <div>
+                    <span class="event-badge">Upcoming</span>
+                    <h5>Creator Signing Night</h5>
+                    <p class="event-meta"><i class="bi bi-calendar3 me-1"></i> Fri 12 Jun 2026, 6:00 PM – 9:00 PM</p>
+                    <p>Meet your favourite comic creators. Bring your books for signing. Limited spots available.</p>
+                    <a href="contact.html" class="btn-cove mt-2" style="padding:6px 16px; font-size:0.8rem;">REGISTER NOW</a>
+                  </div>
+                </article>
+
+                <article class="event-card" aria-label="Event: Game Night">
+                  <div class="event-img" aria-hidden="true"><i class="bi bi-controller"></i></div>
+                  <div>
+                    <span class="event-badge">Upcoming</span>
+                    <h5>Monthly Game Night</h5>
+                    <p class="event-meta"><i class="bi bi-calendar3 me-1"></i> Fri 19 Jun 2026, 7:00 PM – 11:00 PM</p>
+                    <p>Board games, trading card battles and tabletop RPGs. All levels welcome — come as you are!</p>
+                    <a href="contact.html" class="btn-cove mt-2" style="padding:6px 16px; font-size:0.8rem;">REGISTER NOW</a>
+                  </div>
+                </article>
+
+                <article class="event-card" aria-label="Event: New Release Party">
+                  <div class="event-img" aria-hidden="true"><i class="bi bi-book-half"></i></div>
+                  <div>
+                    <span class="event-badge">Upcoming</span>
+                    <h5>New Release Launch Party</h5>
+                    <p class="event-meta"><i class="bi bi-calendar3 me-1"></i> Wed 25 Jun 2026, 5:00 PM – 8:00 PM</p>
+                    <p>Celebrate the launch of the season's most anticipated releases. First copies get signed by contributors.</p>
+                    <a href="contact.html" class="btn-cove mt-2" style="padding:6px 16px; font-size:0.8rem;">REGISTER NOW</a>
+                  </div>
+                </article>
+
+                <div class="text-center mt-4">
+                  <a href="contact.html" class="btn-outline-cove">VIEW ALL EVENTS</a>
+                </div>
+              </div><!-- #upcoming -->
+
+              <!-- PAST -->
+              <div class="tab-pane fade" id="past" role="tabpanel" aria-labelledby="past-tab">
+
+                <article class="event-card" style="opacity:0.65;" aria-label="Past event: Free Comic Book Day">
+                  <div class="event-img" aria-hidden="true"><i class="bi bi-gift"></i></div>
+                  <div>
+                    <span class="event-badge" style="background:var(--color-muted)">Past</span>
+                    <h5>Free Comic Book Day</h5>
+                    <p class="event-meta"><i class="bi bi-calendar3 me-1"></i> Sat 3 May 2026, 10:00 AM – 6:00 PM</p>
+                    <p>We gave away hundreds of free comics to fans young and old. A massive success — see you next year!</p>
+                  </div>
+                </article>
+
+                <article class="event-card" style="opacity:0.65;" aria-label="Past event: Kids Drawing Workshop">
+                  <div class="event-img" aria-hidden="true"><i class="bi bi-brush"></i></div>
+                  <div>
+                    <span class="event-badge" style="background:var(--color-muted)">Past</span>
+                    <h5>Kids Drawing Workshop</h5>
+                    <p class="event-meta"><i class="bi bi-calendar3 me-1"></i> Sat 19 Apr 2026, 10:00 AM – 1:00 PM</p>
+                    <p>Young artists learned how to draw their favourite superhero characters from professional illustrators.</p>
+                  </div>
+                </article>
+
+                <article class="event-card" style="opacity:0.65;" aria-label="Past event: Trivia Night">
+                  <div class="event-img" aria-hidden="true"><i class="bi bi-question-circle"></i></div>
+                  <div>
+                    <span class="event-badge" style="background:var(--color-muted)">Past</span>
+                    <h5>Comics Trivia Night</h5>
+                    <p class="event-meta"><i class="bi bi-calendar3 me-1"></i> Fri 4 Apr 2026, 7:00 PM – 9:00 PM</p>
+                    <p>Test your comic book knowledge. Teams of 4, prizes for top scorers. Highly competitive and very fun!</p>
+                  </div>
+                </article>
+
+              </div><!-- #past -->
+            </div><!-- .tab-content -->
+          </div>
+
+          <!-- ── SIDEBAR: QUICK INFO ── -->
+          <aside class="col-12 col-lg-5">
+            <!-- Upcoming highlight box -->
+            <div class="filter-sidebar mb-4">
+              <h5 style="color:var(--color-gold);">Next Event</h5>
+              <div class="d-flex gap-3 align-items-start">
+                <div style="font-size:2.5rem; color:var(--color-red);" aria-hidden="true"><i class="bi bi-calendar-event"></i></div>
+                <div>
+                  <p class="fw-oswald text-white mb-1" style="font-size:1rem;">Comic Con Gaborone 2026</p>
+                  <p class="text-muted-cc mb-1" style="font-size:0.85rem;"><i class="bi bi-calendar3 me-1 text-red"></i>30 May 2026</p>
+                  <p class="text-muted-cc mb-1" style="font-size:0.85rem;"><i class="bi bi-clock me-1 text-red"></i>9:00 AM – 5:00 PM</p>
+                  <p class="text-muted-cc mb-2" style="font-size:0.85rem;"><i class="bi bi-geo-alt me-1 text-red"></i>GICC, Gaborone</p>
+                  <a href="contact.html" class="btn-cove" style="padding:7px 18px; font-size:0.8rem;">REGISTER</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Host an event -->
+            <div class="filter-sidebar mb-4">
+              <h5>Host an Event</h5>
+              <p style="font-size:0.88rem; color:var(--color-muted);">
+                Want to host a book club, art session or gaming event at The Comic Cove? We'd love to have you.
+                Reach out to us and let's make it happen.
+              </p>
+              <a href="contact.html" class="btn-outline-cove w-100 mt-2 d-block text-center">GET IN TOUCH</a>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="filter-sidebar">
+              <h5>Event Alerts</h5>
+              <p style="font-size:0.88rem; color:var(--color-muted);">Never miss an event — get notified straight to your inbox.</p>
+              <form id="newsletterForm" class="form-cove mt-3" novalidate>
+                <div class="mb-3">
+                  <input type="email" class="form-control" placeholder="your@email.com"
+                         aria-label="Email for event alerts" required />
+                  <div class="invalid-feedback">Please enter a valid email.</div>
+                </div>
+                <button type="submit" class="btn-cove w-100">SUBSCRIBE</button>
+              </form>
+            </div>
+          </aside>
+
+        </div><!-- .row -->
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════════════ FOOTER ══════════════════ -->
+  <footer class="footer-cove" aria-label="Site footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="footer-brand">THE <span>COMIC</span> COVE</div>
+          <p>Your local comic shop with a passion for stories and community.</p>
+          <div class="social-icons mt-3">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-md-2">
+          <h6>Quick Links</h6>
+          <ul>
+            <li><a href="index.html">New Releases</a></li>
+            <li><a href="catalogue.html">Catalogue</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="subscriptions.html">Subscriptions</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2">
+          <h6>Help</h6>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="subscriptions.html">Membership</a></li>
+            <li><a href="#">Shipping Policy</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4">
+          <h6>Follow Us</h6>
+          <p>Stay connected for exclusive deals, new arrivals and community events.</p>
+          <p class="mt-2"><i class="bi bi-geo-alt-fill text-red me-1"></i> 123 Mogotlho Lane, Gaborone, Botswana</p>
+          <p><i class="bi bi-telephone-fill text-red me-1"></i> (+267) 7123 4567</p>
+          <p><i class="bi bi-envelope-fill text-red me-1"></i> info@thecomicove.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="mb-0">&copy; 2026 The Comic Cove. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" aria-label="Scroll to top"><i class="bi bi-chevron-up"></i></button>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
