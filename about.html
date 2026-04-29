@@ -12,28 +12,45 @@
 </head>
 <body>
 
-  <!-- ══════════════════ NAVIGATION ══════════════════ -->
-  <nav class="navbar navbar-cove navbar-expand-lg" aria-label="Main navigation">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">THE <span>COMIC</span> COVE</a>
-      <button class="navbar-toggler" type="button"
-              data-bs-toggle="collapse" data-bs-target="#mainNav"
-              aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
-        <ul class="navbar-nav gap-1">
-          <li class="nav-item"><a class="nav-link" href="index.html">New Releases</a></li>
-          <li class="nav-item"><a class="nav-link" href="catalogue.html">Catalogue</a></li>
-          <li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
-          <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
-          <li class="nav-item"><a class="nav-link" href="subscriptions.html">Subscriptions</a></li>
-          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
+  <header class="site-header" role="banner">
+    <div class="header-logo-bar">
+      <div class="container">
+        <div class="header-content">
+          <a href="index.html" class="brand-wordmark" aria-label="The Comic Cove home">
+            <span class="brand-the">The</span>
+            <span class="brand-comic">Comic</span>
+            <span class="brand-cove">Cove</span>
+          </a>
+          <div class="header-right">
+            <a href="#" class="trolley-icon" aria-label="Shopping trolley"><i class="bi bi-cart3"></i></a>
+            <button class="nav-hamburger" id="hamburger" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle menu">&#9776;</button>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
+    <div class="header-nav-strip">
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">New Releases</a></li>
+          <li><a href="catalogue.html">Catalogue</a></li>
+          <li><a href="community.html">Community</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="subscriptions.html">Subscriptions</a></li>
+          <li><a href="about.html" class="active">About The Comic Cove</a></li>
+          <li><a href="contact.html">Contact &amp; Details</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <a href="index.html">New Releases</a>
+      <a href="catalogue.html">Catalogue</a>
+      <a href="community.html">Community</a>
+      <a href="events.html">Events</a>
+      <a href="subscriptions.html">Subscriptions</a>
+      <a href="about.html" class="active">About The Comic Cove</a>
+      <a href="contact.html">Contact &amp; Details</a>
+    </nav>
+  </header>
 
   <!-- ══════════════════ ABOUT HERO ══════════════════ -->
   <section class="about-hero" aria-labelledby="aboutHeading">
