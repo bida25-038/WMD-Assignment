@@ -8,7 +8,7 @@
   <title>Community | The Comic Cove</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 
@@ -128,20 +128,20 @@
               <h5 style="color:var(--color-gold);">Community Stats</h5>
               <div class="row text-center g-2 mt-1">
                 <div class="col-6">
-                  <p class="fw-oswald text-red mb-0" style="font-size:1.8rem;">2,400+</p>
-                  <p class="text-muted-cc" style="font-size:0.78rem;">Members</p>
+                  <span class="stat-number">2,400+</span>
+                  <span class="stat-label">Members</span>
                 </div>
                 <div class="col-6">
-                  <p class="fw-oswald text-red mb-0" style="font-size:1.8rem;">180+</p>
-                  <p class="text-muted-cc" style="font-size:0.78rem;">Fan Artworks</p>
+                  <span class="stat-number">180+</span>
+                  <span class="stat-label">Fan Artworks</span>
                 </div>
                 <div class="col-6">
-                  <p class="fw-oswald text-red mb-0" style="font-size:1.8rem;">30+</p>
-                  <p class="text-muted-cc" style="font-size:0.78rem;">Events Hosted</p>
+                  <span class="stat-number">30+</span>
+                  <span class="stat-label">Events Hosted</span>
                 </div>
                 <div class="col-6">
-                  <p class="fw-oswald text-red mb-0" style="font-size:1.8rem;">5K+</p>
-                  <p class="text-muted-cc" style="font-size:0.78rem;">Collections Shared</p>
+                  <span class="stat-number">5K+</span>
+                  <span class="stat-label">Collections Shared</span>
                 </div>
               </div>
             </div>
@@ -182,56 +182,95 @@
     </section>
   </main>
 
-  <!-- ══════════════════ FOOTER ══════════════════ -->
-  <footer class="footer-cove" aria-label="Site footer">
-    <div class="container">
-      <div class="row g-4">
-        <div class="col-12 col-md-4">
-          <div class="footer-brand">THE <span>COMIC</span> COVE</div>
-          <p>Your local comic shop with a passion for stories and community.</p>
-          <div class="social-icons mt-3">
-            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" aria-label="Twitter/X"><i class="bi bi-twitter-x"></i></a>
-            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
-          </div>
-        </div>
-        <div class="col-6 col-md-2">
-          <h6>Quick Links</h6>
-          <ul>
-            <li><a href="index.html">New Releases</a></li>
-            <li><a href="catalogue.html">Catalogue</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="community.html">Community</a></li>
-            <li><a href="subscriptions.html">Subscriptions</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md-2">
-          <h6>Help</h6>
-          <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="subscriptions.html">Membership</a></li>
-            <li><a href="#">Shipping Policy</a></li>
-            <li><a href="#">Returns</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-md-4">
-          <h6>Follow Us</h6>
-          <p>Stay connected for exclusive deals, new arrivals and community events.</p>
-          <p class="mt-2"><i class="bi bi-geo-alt-fill text-red me-1"></i> 123 Mogotlho Lane, Gaborone, Botswana</p>
-          <p><i class="bi bi-telephone-fill text-red me-1"></i> (+267) 7123 4567</p>
-          <p><i class="bi bi-envelope-fill text-red me-1"></i> info@thecomicove.com</p>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p class="mb-0">&copy; 2026 The Comic Cove. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
+  <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">New Releases</a></li>
+                        <li><a href="#">Catalogue</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="#">About The Cove</a></li>
+                        <li><a href="#">Contact & Details</a></li>
+                        <li><a href="#">Subscriptions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-btn" title="Facebook">f</a>
+                        <a href="#" class="social-btn" title="Twitter">𝕏</a>
+                        <a href="#" class="social-btn" title="Instagram">📷</a>
+                        <a href="#" class="social-btn" title="Pinterest">📌</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p style="color: #999; font-size: 0.85rem; margin-bottom: 10px;">Stay in the loop with exclusive offers and news</p>
+                    <input type="email" class="form-control" placeholder="Your email" style="font-size: 0.8rem; padding: 8px 12px;">
+                </div>
+            </div>
 
-  <button id="scrollTopBtn" aria-label="Scroll to top"><i class="bi bi-chevron-up"></i></button>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
-  <script src="js/main.js"></script>
+            <div class="footer-bottom">
+                <p>© The Comic Cove. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function showPage(pageId) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page-container');
+            pages.forEach(page => page.classList.remove('active'));
+            
+            // Show selected page
+            document.getElementById(pageId).classList.add('active');
+            
+            // Update nav links
+            const navLinks = document.querySelectorAll('.nav-links a');
+            navLinks.forEach(link => link.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Close mobile nav
+            const mobileNav = document.querySelector('.mobile-nav');
+            if (mobileNav) mobileNav.classList.remove('active');
+            
+            // Scroll to top
+            window.scrollTo(0, 0);
+        }
+
+        function toggleMobileNav() {
+            const mobileNav = document.querySelector('.mobile-nav');
+            if (!mobileNav) {
+                const nav = document.createElement('nav');
+                nav.className = 'mobile-nav';
+                nav.innerHTML = `
+                    <a href="#" onclick="showPage('home'); return false;">NEW RELEASES</a>
+                    <a href="#" onclick="showPage('catalogue'); return false;">CATALOGUE</a>
+                    <a href="#" onclick="showPage('events'); return false;">EVENTS</a>
+                    <a href="#" onclick="showPage('community'); return false;">COMMUNITY</a>
+                    <a href="#" onclick="showPage('subscriptions'); return false;">SUBSCRIPTIONS</a>
+                    <a href="#" onclick="showPage('about'); return false;">ABOUT THE COVE</a>
+                    <a href="#" onclick="showPage('contact'); return false;">CONTACT & DETAILS</a>
+                `;
+                document.querySelector('.header-nav-strip').appendChild(nav);
+            } else {
+                mobileNav.classList.toggle('active');
+            }
+        }
+
+        // Set initial active nav
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.nav-links a')[0].classList.add('active');
+        });
+    </script>
 </body>
 </html>

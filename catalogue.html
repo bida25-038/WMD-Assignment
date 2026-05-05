@@ -8,7 +8,7 @@
   <title>Catalogue | The Comic Cove</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 
@@ -151,147 +151,501 @@
               <label for="sortSelect">Sort by:</label>
               <select id="sortSelect" name="sort" aria-label="Sort products">
                 <option value="featured">Featured</option>
-                <option value="newest">Newest First</option>
-                <option value="price-asc">Price: Low to High</option>
+<option value="newest">Newest First</option>
+<option value="category">By Category</option>
+<option value="price-asc">Price: Low to High</option>
                 <option value="price-desc">Price: High to Low</option>
                 <option value="az">A – Z</option>
+                <option value="za">Z – A</option>
               </select>
-              <span class="ms-auto text-muted-cc" style="font-size:0.82rem;">Showing 12 of 48 items</span>
+              <span class="ms-auto text-muted-cc" style="font-size:0.82rem;">Showing 48 items</span>
             </div>
 
             <div class="row g-4" id="productGrid">
               <!-- Products 1–12 -->
               <div class="col-6 col-md-4">
                 <article class="comic-card">
-                  <div class="card-img-wrap"><div class="img-placeholder"><i class="bi bi-book"></i></div></div>
+                  <div class="card-img-wrap"><img src="images/products/peter.packer..jpg" alt="X-Men Gold" class="card-img" /></div>
                   <div class="card-body">
                     <p class="card-genre">Marvel · Comic Book</p>
-                    <h3 class="card-title">Comic Title #001</h3>
+                    <h3 class="card-title">Peter Parker: The Spectacular Spider-Man</h3>
                     <p class="card-price">P 45.00</p>
                   </div>
                 </article>
               </div>
               <div class="col-6 col-md-4">
                 <article class="comic-card">
-                  <div class="card-img-wrap"><div class="img-placeholder"><i class="bi bi-book"></i></div></div>
+                  <div class="card-img-wrap"><img src="images/products/batman-detective.jpg.jpg" alt="Batman: Detective Comics" class="card-img" /></div>
                   <div class="card-body">
                     <p class="card-genre">DC · Hardcover</p>
-                    <h3 class="card-title">Comic Title #002</h3>
-                    <p class="card-price">P 120.00</p>
+                    <h3 class="card-title">Batman: Detective Comics</h3>
+                    <p class="card-price">P 56.00</p>
                   </div>
                 </article>
               </div>
               <div class="col-6 col-md-4">
                 <article class="comic-card">
-                  <div class="card-img-wrap"><div class="img-placeholder"><i class="bi bi-book"></i></div></div>
+                  <div class="card-img-wrap"><img src="images/products/saga_volume_1.jpg" alt="Saga Volume 1" class="card-img" /></div>
                   <div class="card-body">
                     <p class="card-genre">Image · Graphic Novel</p>
-                    <h3 class="card-title">Comic Title #003</h3>
-                    <p class="card-price">P 95.00</p>
+                    <h3 class="card-title">Saga Volume 1</h3>
+                    <p class="card-price">P 55.00</p>
                   </div>
                 </article>
               </div>
               <div class="col-6 col-md-4">
                 <article class="comic-card">
-                  <div class="card-img-wrap"><div class="img-placeholder"><i class="bi bi-book"></i></div></div>
+                  <div class="card-img-wrap"><img src="images/products/demon_slayer_ kimetsu-no-yaiba-vol_20.jpg" alt="Demon Slayer Vol. 20" class="card-img" /></div>
                   <div class="card-body">
                     <p class="card-genre">Manga · Trade Paperback</p>
-                    <h3 class="card-title">Comic Title #004</h3>
+                    <h3 class="card-title">Demon Slayer Vol. 20</h3>
                     <p class="card-price">P 60.00</p>
                   </div>
                 </article>
               </div>
               <div class="col-6 col-md-4">
                 <article class="comic-card">
-                  <div class="card-img-wrap"><div class="img-placeholder"><i class="bi bi-book"></i></div></div>
+                  <div class="card-img-wrap"><img src="images/products/hellboy.jpg" alt="Hellboy" class="card-img" /></div>
                   <div class="card-body">
                     <p class="card-genre">Dark Horse · Comic Book</p>
-                    <h3 class="card-title">Comic Title #005</h3>
+                    <h3 class="card-title">Hellboy</h3>
                     <p class="card-price">P 42.00</p>
                   </div>
                 </article>
               </div>
               <div class="col-6 col-md-4">
                 <article class="comic-card">
-                  <div class="card-img-wrap"><div class="img-placeholder"><i class="bi bi-book"></i></div></div>
+                  <div class="card-img-wrap"><img src="images/products/x-men_gold.jpg" alt="X-Men Gold" class="card-img" /></div>
                   <div class="card-body">
-                    <p class="card-genre">Indie · Collectible</p>
-                    <h3 class="card-title">Comic Title #006</h3>
-                    <p class="card-price">P 350.00</p>
+                    <p class="card-genre">Marvel · Collectible</p>
+                    <h3 class="card-title">X-Men Gold</h3>
+                    <p class="card-price">P 70.00</p>
                   </div>
                 </article>
               </div>
               <div class="col-6 col-md-4">
                 <article class="comic-card">
-                  <div class="card-img-wrap"><div class="img-placeholder"><i class="bi bi-book"></i></div></div>
+                  <div class="card-img-wrap"><img src="images/products/the-walking-dead.jpg" alt="The Walking Dead" class="card-img" /></div>
                   <div class="card-body">
-                    <p class="card-genre">Marvel · Hardcover</p>
-                    <h3 class="card-title">Comic Title #007</h3>
-                    <p class="card-price">P 180.00</p>
+                    <p class="card-genre">Image · Hardcover</p>
+                    <h3 class="card-title">The Walking Dead Vol 32</h3>
+                    <p class="card-price">P 90.00</p>
                   </div>
                 </article>
               </div>
               <div class="col-6 col-md-4">
                 <article class="comic-card">
-                  <div class="card-img-wrap"><div class="img-placeholder"><i class="bi bi-book"></i></div></div>
+                  <div class="card-img-wrap"><img src="images/products/dc/superman_graphicalnovel.jpg" alt="Superman Graphical Novel" class="card-img" /></div>
                   <div class="card-body">
                     <p class="card-genre">DC · Graphic Novel</p>
-                    <h3 class="card-title">Comic Title #008</h3>
+                    <h3 class="card-title">Superman Graphical Novel</h3>
                     <p class="card-price">P 88.00</p>
                   </div>
                 </article>
               </div>
               <div class="col-6 col-md-4">
                 <article class="comic-card">
-                  <div class="card-img-wrap"><div class="img-placeholder"><i class="bi bi-book"></i></div></div>
+                  <div class="card-img-wrap"><img src="images/products/marvel/captain_america_civil_war.jpg" alt="Captain America: Civil War" class="card-img" /></div>
                   <div class="card-body">
-                    <p class="card-genre">Image · Comic Book</p>
-                    <h3 class="card-title">Comic Title #009</h3>
+                    <p class="card-genre">Marvel · Comic Book</p>
+                    <h3 class="card-title">Captain America: Civil War</h3>
                     <p class="card-price">P 38.00</p>
                   </div>
                 </article>
               </div>
               <div class="col-6 col-md-4">
                 <article class="comic-card">
-                  <div class="card-img-wrap"><div class="img-placeholder"><i class="bi bi-book"></i></div></div>
+                  <div class="card-img-wrap"><img src="images/products/anime/naruto_vol66.jpg" alt="Naruto Vol. 66" class="card-img" /></div>
                   <div class="card-body">
                     <p class="card-genre">Manga · Comic Book</p>
-                    <h3 class="card-title">Comic Title #010</h3>
+                    <h3 class="card-title">Naruto Vol. 66</h3>
                     <p class="card-price">P 30.00</p>
                   </div>
                 </article>
               </div>
               <div class="col-6 col-md-4">
                 <article class="comic-card">
-                  <div class="card-img-wrap"><div class="img-placeholder"><i class="bi bi-book"></i></div></div>
+                  <div class="card-img-wrap"><img src="images/products/indie/invincible_the_viltrumite_war_vol14.jpg" alt="Invincible: The Viltrumite War Vol. 14" class="card-img" /></div>
                   <div class="card-body">
                     <p class="card-genre">Indie · Graphic Novel</p>
-                    <h3 class="card-title">Comic Title #011</h3>
+                    <h3 class="card-title">Invincible: The Viltrumite War Vol. 14</h3>
                     <p class="card-price">P 72.00</p>
                   </div>
                 </article>
               </div>
               <div class="col-6 col-md-4">
                 <article class="comic-card">
-                  <div class="card-img-wrap"><div class="img-placeholder"><i class="bi bi-book"></i></div></div>
+                  <div class="card-img-wrap"><img src="images/products/anime/my_hero_academia_vol1.jpg" alt="My Hero Academia Vol. 1" class="card-img" /></div>
                   <div class="card-body">
-                    <p class="card-genre">Dark Horse · Hardcover</p>
-                    <h3 class="card-title">Comic Title #012</h3>
-                    <p class="card-price">P 140.00</p>
+                    <p class="card-genre">Manga · Hardcover</p>
+                    <h3 class="card-title">My Hero Academia Vol. 1</h3>
+                    <p class="card-price">P 100.00</p>
                   </div>
                 </article>
               </div>
             </div><!-- #productGrid -->
 
+            <!-- PAGE 2 PRODUCTS (hidden by default) -->
+            <div class="row g-4" id="productGridPage2" style="display: none;">
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/dc/harley-quinn.jpg" alt="Harley Quinn" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">DC · Comic Book</p>
+                    <h3 class="card-title">Harley Quinn</h3>
+                    <p class="card-price">P 55.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/marvel/iron_man-3.jpg" alt="Iron Man 3" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Marvel · Hardcover</p>
+                    <h3 class="card-title">Iron Man 3</h3>
+                    <p class="card-price">P 98.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/anime/one_piece,vol_61.jpg" alt="One Piece Vol. 61" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Manga · Trade Paperback</p>
+                    <h3 class="card-title">One Piece Vol. 61</h3>
+                    <p class="card-price">P 50.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/indie/hitgirl_issue nine.jpg" alt="Hit-Girl Issue 9" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Indie · Comic Book</p>
+                    <h3 class="card-title">Hit-Girl Issue 9</h3>
+                    <p class="card-price">P 35.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/dc/aquaman.jpg" alt="Aquaman" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">DC · Graphic Novel</p>
+                    <h3 class="card-title">Aquaman</h3>
+                    <p class="card-price">P 85.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/marvel/black_panther_wakanda-forever.jpg" alt="Black Panther: Wakanda Forever" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Marvel · Hardcover</p>
+                    <h3 class="card-title">Black Panther: Wakanda Forever</h3>
+                    <p class="card-price">P 97.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/anime/jujutsu_kaisen_vol4.jpg" alt="Jujutsu Kaisen Vol. 4" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Manga · Comic Book</p>
+                    <h3 class="card-title">Jujutsu Kaisen Vol. 4</h3>
+                    <p class="card-price">P 45.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/dc/the_flash_fastestman alive.jpg" alt="The Flash: Fastest Man Alive" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">DC · Comic Book</p>
+                    <h3 class="card-title">The Flash: Fastest Man Alive</h3>
+                    <p class="card-price">P 48.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/marvel/doctorstrange-in-the-multiverse-of-madness.jpg" alt="Doctor Strange in the Multiverse of Madness" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Marvel · Hardcover</p>
+                    <h3 class="card-title">Doctor Strange in the Multiverse of Madness</h3>
+                    <p class="card-price">P 105.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/anime/chainsaw_man_volume 1.jpg" alt="Chainsaw Man Volume 1" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Manga · Graphic Novel</p>
+                    <h3 class="card-title">Chainsaw Man Volume 1</h3>
+                    <p class="card-price">P 78.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/indie/feverknights.jpg" alt="Fever Knights" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Indie · Collectible</p>
+                    <h3 class="card-title">Fever Knights</h3>
+                    <p class="card-price">P 95.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/dc/wonder _woman.jpg" alt="Wonder Woman" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">DC · Hardcover</p>
+                    <h3 class="card-title">Wonder Woman</h3>
+                    <p class="card-price">P 101.00</p>
+                  </div>
+                </article>
+              </div>
+            </div><!-- #productGridPage2 -->
+
+            <!-- PAGE 3 PRODUCTS (hidden by default) -->
+            <div class="row g-4" id="productGridPage3" style="display: none;">
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/anime/blue_lock.jpg" alt="Blue Lock" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Manga · Comic Book</p>
+                    <h3 class="card-title">Blue Lock</h3>
+                    <p class="card-price">P 55.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/dc/deadpool.jpg" alt="Deadpool" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">DC · Graphic Novel</p>
+                    <h3 class="card-title">Deadpool</h3>
+                    <p class="card-price">P 75.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/indie/stranger_things_demogorgon_trap.jpg" alt="Stranger Things: Demogorgon Trap" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Indie · Graphic Novel</p>
+                    <h3 class="card-title">Stranger Things: Demogorgon Trap</h3>
+                    <p class="card-price">P 68.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/marvel/spiderman_into_the_spider_verse.jpg" alt="Spider-Man: Into the Spider-Verse" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Marvel · Hardcover</p>
+                    <h3 class="card-title">Spider-Man: Into the Spider-Verse</h3>
+                    <p class="card-price">P 140.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/anime/dandadan,vol_ 1_volume 1.jpg" alt="Dandadan Vol. 1" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Manga · Comic Book</p>
+                    <h3 class="card-title">Dandadan Vol. 1</h3>
+                    <p class="card-price">P 48.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/dc/justice_league_unlimited_vol6.jpg" alt="Justice League Unlimited Vol. 6" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">DC · Hardcover</p>
+                    <h3 class="card-title">Justice League Unlimited Vol. 6</h3>
+                    <p class="card-price">P 100.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/marvel/Venom_lethal_protector.jpg" alt="Venom: Lethal Protector" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Marvel · Comic Book</p>
+                    <h3 class="card-title">Venom: Lethal Protector</h3>
+                    <p class="card-price">P 52.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/anime/dragon_ball-vol2.jpg" alt="Dragon Ball Vol. 2" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Manga · Trade Paperback</p>
+                    <h3 class="card-title">Dragon Ball Vol. 2</h3>
+                    <p class="card-price">P 40.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/dc/robin_tim_drake.jpg" alt="Robin: Tim Drake" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">DC · Comic Book</p>
+                    <h3 class="card-title">Robin: Tim Drake</h3>
+                    <p class="card-price">P 45.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/indie/scrapper_issue4.jpg" alt="Scrapper Issue 4" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Indie · Comic Book</p>
+                    <h3 class="card-title">Scrapper Issue 4</h3>
+                    <p class="card-price">P 32.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/marvel/moonknight.jpg" alt="Moon Knight" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Marvel · Graphic Novel</p>
+                    <h3 class="card-title">Moon Knight</h3>
+                    <p class="card-price">P 78.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/anime/ippo_the_fighting.jpg" alt="Ippo: The Fighting" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Manga · Hardcover</p>
+                    <h3 class="card-title">Ippo: The Fighting</h3>
+                    <p class="card-price">P 92.00</p>
+                  </div>
+                </article>
+              </div>
+            </div><!-- #productGridPage3 -->
+
+            <!-- PAGE 4 PRODUCTS (hidden by default) -->
+            <div class="row g-4" id="productGridPage4" style="display: none;">
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/dc/shazam_the_new_beginning_issue1.jpg" alt="Shazam: The New Beginning Issue 1" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">DC · Comic Book</p>
+                    <h3 class="card-title">Shazam: The New Beginning Issue 1</h3>
+                    <p class="card-price">P 38.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/marvel/avengers_doomsday.jpg" alt="Avengers: Doomsday" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Marvel · Hardcover</p>
+                    <h3 class="card-title">Avengers: Doomsday</h3>
+                    <p class="card-price">P 145.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/anime/deadly_class.jpg" alt="Deadly Class" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Manga · Graphic Novel</p>
+                    <h3 class="card-title">Deadly Class</h3>
+                    <p class="card-price">P 82.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/indie/nights_with_great_power_comes.jpg" alt="Nights with Great Power Comes" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Indie · Collectible</p>
+                    <h3 class="card-title">Nights with Great Power Comes</h3>
+                    <p class="card-price">P 155.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/marvel/guardians-of-the-galaxy. vol3.jpg" alt="Guardians of the Galaxy Vol. 3" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Marvel · Hardcover</p>
+                    <h3 class="card-title">Guardians of the Galaxy Vol. 3</h3>
+                    <p class="card-price">P 135.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/anime/my-hero-academia-graphic-novel-volume-16.jpg" alt="My Hero Academia Graphic Novel Vol. 16" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Manga · Graphic Novel</p>
+                    <h3 class="card-title">My Hero Academia Graphic Novel Vol. 16</h3>
+                    <p class="card-price">P 88.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/dc/deathstroke_the_borgia_plague.jpg" alt="Deathstroke: The Borgia Plague" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">DC · Comic Book</p>
+                    <h3 class="card-title">Deathstroke: The Borgia Plague</h3>
+                    <p class="card-price">P 42.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/marvel/the_punisher_vegeance_belong_to_bushwacker.jpg" alt="The Punisher: Vengeance" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Marvel · Comic Book</p>
+                    <h3 class="card-title">The Punisher: Vengeance</h3>
+                    <p class="card-price">P 50.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/anime/yugioh_vol16_17_18.jpg" alt="Yu-Gi-Oh! Vol. 16-18" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Manga · Trade Paperback</p>
+                    <h3 class="card-title">Yu-Gi-Oh! Vol. 16-18</h3>
+                    <p class="card-price">P 85.00</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-6 col-md-4">
+                <article class="comic-card">
+                  <div class="card-img-wrap"><img src="images/products/marvel/antman.jpg" alt="Ant-Man" class="card-img" /></div>
+                  <div class="card-body">
+                    <p class="card-genre">Marvel · Hardcover</p>
+                    <h3 class="card-title">Ant-Man</h3>
+                    <p class="card-price">P 105.00</p>
+                  </div>
+                </article>
+              </div>
+            </div><!-- #productGridPage4 -->
+
             <!-- Pagination -->
             <nav class="mt-5" aria-label="Catalogue pages">
               <ul class="pagination justify-content-center" style="--bs-pagination-bg: var(--color-surface); --bs-pagination-color: var(--color-muted); --bs-pagination-border-color: var(--color-border); --bs-pagination-hover-bg: var(--color-surface2); --bs-pagination-hover-color: var(--color-text); --bs-pagination-active-bg: var(--color-red); --bs-pagination-active-border-color: var(--color-red); --bs-pagination-active-color: #fff;">
-                <li class="page-item disabled"><a class="page-link" href="#">&laquo;</a></li>
-                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+                <li class="page-item" id="prevPage"><a class="page-link" href="#" onclick="changePage(-1); return false;">&laquo;</a></li>
+                <li class="page-item active" id="page1"><a class="page-link" href="#" onclick="showPage(1); return false;">1</a></li>
+                <li class="page-item" id="page2"><a class="page-link" href="#" onclick="showPage(2); return false;">2</a></li>
+                <li class="page-item" id="page3"><a class="page-link" href="#" onclick="showPage(3); return false;">3</a></li>
+                <li class="page-item" id="page4"><a class="page-link" href="#" onclick="showPage(4); return false;">4</a></li>
+                <li class="page-item" id="nextPage"><a class="page-link" href="#" onclick="changePage(1); return false;">&raquo;</a></li>
               </ul>
             </nav>
 
@@ -301,56 +655,363 @@
     </section>
   </main>
 
-  <!-- ══════════════════ FOOTER ══════════════════ -->
-  <footer class="footer-cove" aria-label="Site footer">
-    <div class="container">
-      <div class="row g-4">
-        <div class="col-12 col-md-4">
-          <div class="footer-brand">THE <span>COMIC</span> COVE</div>
-          <p>Your local comic shop with a passion for stories and community.</p>
-          <div class="social-icons mt-3">
-            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" aria-label="Twitter/X"><i class="bi bi-twitter-x"></i></a>
-            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
-          </div>
-        </div>
-        <div class="col-6 col-md-2">
-          <h6>Quick Links</h6>
-          <ul>
-            <li><a href="index.html">New Releases</a></li>
-            <li><a href="catalogue.html">Catalogue</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="community.html">Community</a></li>
-            <li><a href="subscriptions.html">Subscriptions</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md-2">
-          <h6>Help</h6>
-          <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="subscriptions.html">Membership</a></li>
-            <li><a href="#">Shipping Policy</a></li>
-            <li><a href="#">Returns</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-md-4">
-          <h6>Follow Us</h6>
-          <p>Stay connected for exclusive deals, new arrivals and community events.</p>
-          <p class="mt-2"><i class="bi bi-geo-alt-fill text-red me-1"></i> 123 Mogotlho Lane, Gaborone, Botswana</p>
-          <p><i class="bi bi-telephone-fill text-red me-1"></i> (+267) 7123 4567</p>
-          <p><i class="bi bi-envelope-fill text-red me-1"></i> info@thecomicove.com</p>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p class="mb-0">&copy; 2026 The Comic Cove. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
+  <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">New Releases</a></li>
+                        <li><a href="#">Catalogue</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="#">About The Cove</a></li>
+                        <li><a href="#">Contact & Details</a></li>
+                        <li><a href="#">Subscriptions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-btn" title="Facebook">f</a>
+                        <a href="#" class="social-btn" title="Twitter">𝕏</a>
+                        <a href="#" class="social-btn" title="Instagram">📷</a>
+                        <a href="#" class="social-btn" title="Pinterest">📌</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p style="color: #999; font-size: 0.85rem; margin-bottom: 10px;">Stay in the loop with exclusive offers and news</p>
+                    <input type="email" class="form-control" placeholder="Your email" style="font-size: 0.8rem; padding: 8px 12px;">
+                </div>
+            </div>
 
-  <button id="scrollTopBtn" aria-label="Scroll to top"><i class="bi bi-chevron-up"></i></button>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
-  <script src="js/main.js"></script>
+            <div class="footer-bottom">
+                <p>© The Comic Cove. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function showPage(pageId) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page-container');
+            pages.forEach(page => page.classList.remove('active'));
+            
+            // Show selected page
+            document.getElementById(pageId).classList.add('active');
+            
+            // Update nav links
+            const navLinks = document.querySelectorAll('.nav-links a');
+            navLinks.forEach(link => link.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Close mobile nav
+            const mobileNav = document.querySelector('.mobile-nav');
+            if (mobileNav) mobileNav.classList.remove('active');
+            
+            // Scroll to top
+            window.scrollTo(0, 0);
+        }
+
+        function toggleMobileNav() {
+            const mobileNav = document.querySelector('.mobile-nav');
+            if (!mobileNav) {
+                const nav = document.createElement('nav');
+                nav.className = 'mobile-nav';
+                nav.innerHTML = `
+                    <a href="#" onclick="showPage('home'); return false;">NEW RELEASES</a>
+                    <a href="#" onclick="showPage('catalogue'); return false;">CATALOGUE</a>
+                    <a href="#" onclick="showPage('events'); return false;">EVENTS</a>
+                    <a href="#" onclick="showPage('community'); return false;">COMMUNITY</a>
+                    <a href="#" onclick="showPage('subscriptions'); return false;">SUBSCRIPTIONS</a>
+                    <a href="#" onclick="showPage('about'); return false;">ABOUT THE COVE</a>
+                    <a href="#" onclick="showPage('contact'); return false;">CONTACT & DETAILS</a>
+                `;
+                document.querySelector('.header-nav-strip').appendChild(nav);
+            } else {
+                mobileNav.classList.toggle('active');
+            }
+        }
+
+        // Set initial active nav
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.nav-links a')[0].classList.add('active');
+        });
+    </script>
+</body>
+</html>
+
+  <script>
+    let currentPage = 1;
+
+    // Product data for filtering
+    const allProducts = [];
+
+    function initProducts() {
+      // Collect all products from all pages
+      document.querySelectorAll('#productGrid, #productGridPage2, #productGridPage3, #productGridPage4').forEach(grid => {
+        grid.querySelectorAll('.comic-card').forEach(card => {
+          const genre = card.querySelector('.card-genre').textContent;
+          const title = card.querySelector('.card-title').textContent;
+          const price = parseFloat(card.querySelector('.card-price').textContent.replace('P ', ''));
+          
+          // Determine category from genre text
+          let category = '';
+          if (genre.includes('Marvel')) category = 'marvel';
+          else if (genre.includes('DC')) category = 'dc';
+          else if (genre.includes('Image')) category = 'image';
+          else if (genre.includes('Manga')) category = 'manga';
+          else if (genre.includes('Indie')) category = 'indie';
+          else if (genre.includes('Dark Horse')) category = 'darkhorse';
+          
+          // Determine format from genre text
+          let format = '';
+          if (genre.includes('Comic Book')) format = 'comic';
+          else if (genre.includes('Graphic Novel')) format = 'graphic';
+          else if (genre.includes('Hardcover')) format = 'hardcover';
+          else if (genre.includes('Trade Paperback')) format = 'trade';
+          else if (genre.includes('Collectible')) format = 'collectible';
+          
+          allProducts.push({
+            element: card,
+            category: category,
+            format: format,
+            price: price,
+            title: title,
+            parentGrid: grid.id
+          });
+        });
+      });
+    }
+
+    function filterProducts() {
+      // Get selected categories
+      const selectedCategories = [];
+      document.querySelectorAll('input[name="category"]:checked').forEach(cb => {
+        selectedCategories.push(cb.value);
+      });
+      
+      // Get selected formats
+      const selectedFormats = [];
+      document.querySelectorAll('input[name="format"]:checked').forEach(cb => {
+        selectedFormats.push(cb.value);
+      });
+      
+      // Get max price
+      const maxPrice = parseInt(document.getElementById('priceRange').value);
+      
+      // Filter products
+      let visibleCount = 0;
+      const visiblePages = new Set();
+      
+      allProducts.forEach(product => {
+        const categoryMatch = selectedCategories.length === 0 || selectedCategories.includes(product.category);
+        const formatMatch = selectedFormats.length === 0 || selectedFormats.includes(product.format);
+        const priceMatch = product.price <= maxPrice;
+        
+        if (categoryMatch && formatMatch && priceMatch) {
+          product.element.style.display = '';
+          visibleCount++;
+          visiblePages.add(product.parentGrid);
+        } else {
+          product.element.style.display = 'none';
+        }
+      });
+      
+      // Update showing count
+      document.querySelector('.sort-bar span').textContent = `Showing ${visibleCount} of ${allProducts.length} items`;
+      
+      // Update pagination visibility based on visible products
+      updatePagination(visiblePages, visibleCount);
+
+      // Re-apply current sort
+      sortProducts(currentSort);
+    }
+
+    function updatePagination(visiblePages, visibleCount) {
+      const page1 = document.getElementById('page1');
+      const page2 = document.getElementById('page2');
+      const page3 = document.getElementById('page3');
+      const page4 = document.getElementById('page4');
+      
+      // Show/hide page buttons based on whether they have products
+      page1.style.display = visiblePages.has('productGrid') ? '' : 'none';
+      page2.style.display = visiblePages.has('productGridPage2') ? '' : 'none';
+      page3.style.display = visiblePages.has('productGridPage3') ? '' : 'none';
+      page4.style.display = visiblePages.has('productGridPage4') ? '' : 'none';
+      
+      // If current page has no products, go to first available page
+      const currentGrid = document.getElementById(currentPage === 1 ? 'productGrid' : currentPage === 2 ? 'productGridPage2' : currentPage === 3 ? 'productGridPage3' : 'productGridPage4');
+      if (currentGrid && currentGrid.style.display === 'none') {
+        // Find first visible page
+        if (visiblePages.has('productGrid')) showPage(1);
+        else if (visiblePages.has('productGridPage2')) showPage(2);
+        else if (visiblePages.has('productGridPage3')) showPage(3);
+        else if (visiblePages.has('productGridPage4')) showPage(4);
+      }
+    }
+
+    // Price range slider update
+    document.getElementById('priceRange').addEventListener('input', function(e) {
+      document.getElementById('priceDisplay').textContent = `P 0 — P ${e.target.value}`;
+    });
+
+    // Filter form submission
+    document.getElementById('filterForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      filterProducts();
+    });
+
+    // Filter form reset
+    document.getElementById('filterForm').addEventListener('reset', function(e) {
+      setTimeout(function() {
+        document.getElementById('priceDisplay').textContent = 'P 0 — P 200';
+        document.getElementById('priceRange').value = 200;
+        allProducts.forEach(product => {
+          product.element.style.display = '';
+        });
+        document.querySelector('.sort-bar span').textContent = `Showing ${allProducts.length} items`;
+        
+        // Reset pagination
+        document.getElementById('page1').style.display = '';
+        document.getElementById('page2').style.display = '';
+        document.getElementById('page3').style.display = '';
+        document.getElementById('page4').style.display = '';
+      }, 100);
+    });
+
+const categoryOrder = {'marvel':0, 'dc':1, 'image':2, 'manga':3, 'indie':4, 'darkhorse':5};
+let currentSort = 'featured';
+
+    // Sort functionality
+    function sortProducts(sortType) {
+      if (sortType === 'featured' || sortType === 'newest') return; // No-op for now, or implement logic
+
+      // Use allProducts array
+      let visibleProducts = allProducts.filter(product => product.element.style.display !== 'none');
+
+      // Extract title/price (parsing since no data attrs yet)
+      visibleProducts = visibleProducts.map(product => ({
+        element: product.element,
+        title: product.title,
+        price: product.price
+      }));
+
+      // Sort
+      if (sortType === 'price-asc') {
+        visibleProducts.sort((a, b) => a.price - b.price);
+      } else if (sortType === 'price-desc') {
+        visibleProducts.sort((a, b) => b.price - a.price);
+      } else if (sortType === 'az') {
+        visibleProducts.sort((a, b) => a.title.localeCompare(b.title));
+      } else if (sortType === 'za') {
+        visibleProducts.sort((a, b) => b.title.localeCompare(a.title));
+      } else if (sortType === 'newest') {
+        visibleProducts.sort((a, b) => b.title.localeCompare(a.title)); // Proxy for newest
+      } else if (sortType === 'category') {
+        visibleProducts.sort((a, b) => {
+          const orderA = categoryOrder[a.category] || 6;
+          const orderB = categoryOrder[b.category] || 6;
+          return orderA - orderB || a.title.localeCompare(b.title);
+        });
+      }
+
+      // Clear all grids
+      const grids = [
+        document.getElementById('productGrid'),
+        document.getElementById('productGridPage2'),
+        document.getElementById('productGridPage3'),
+        document.getElementById('productGridPage4')
+      ];
+      grids.forEach(grid => grid.innerHTML = '');
+
+      // Re-populate pages (12 per page)
+      const chunkSize = 12;
+      for (let i = 0; i < visibleProducts.length; i += chunkSize) {
+        const chunk = visibleProducts.slice(i, i + chunkSize);
+        const grid = grids[Math.floor(i / chunkSize)];
+        chunk.forEach(product => grid.appendChild(product.element));
+      }
+
+      // Update count
+      document.querySelector('.sort-bar span').textContent = `Showing ${visibleProducts.length} items`;
+
+      // Reset to page 1
+      showPage(1);
+      currentSort = sortType;
+    }
+
+    // Sort change event
+    document.getElementById('sortSelect').addEventListener('change', function(e) {
+      sortProducts(e.target.value);
+    });
+
+    function showPage(pageNum) {
+      const productGrid = document.getElementById('productGrid');
+      const productGridPage2 = document.getElementById('productGridPage2');
+      const productGridPage3 = document.getElementById('productGridPage3');
+      const productGridPage4 = document.getElementById('productGridPage4');
+      const page1 = document.getElementById('page1');
+      const page2 = document.getElementById('page2');
+      const page3 = document.getElementById('page3');
+      const page4 = document.getElementById('page4');
+      const prevPageBtn = document.getElementById('prevPage');
+      const nextPageBtn = document.getElementById('nextPage');
+
+      currentPage = pageNum;
+
+      // Hide all pages first
+      productGrid.style.display = 'none';
+      productGridPage2.style.display = 'none';
+      productGridPage3.style.display = 'none';
+      productGridPage4.style.display = 'none';
+      
+      // Remove active from all page buttons
+      page1.classList.remove('active');
+      page2.classList.remove('active');
+      page3.classList.remove('active');
+      page4.classList.remove('active');
+
+      // Show the selected page with flex display (Bootstrap row default)
+      if (pageNum === 1) {
+        productGrid.style.display = 'flex';
+        page1.classList.add('active');
+        prevPageBtn.classList.add('disabled');
+        nextPageBtn.classList.remove('disabled');
+      } else if (pageNum === 2) {
+        productGridPage2.style.display = 'flex';
+        page2.classList.add('active');
+        prevPageBtn.classList.remove('disabled');
+        nextPageBtn.classList.remove('disabled');
+      } else if (pageNum === 3) {
+        productGridPage3.style.display = 'flex';
+        page3.classList.add('active');
+        prevPageBtn.classList.remove('disabled');
+        nextPageBtn.classList.remove('disabled');
+      } else if (pageNum === 4) {
+        productGridPage4.style.display = 'flex';
+        page4.classList.add('active');
+        prevPageBtn.classList.remove('disabled');
+        nextPageBtn.classList.add('disabled');
+      }
+    }
+
+    function changePage(direction) {
+      const newPage = currentPage + direction;
+      if (newPage >= 1 && newPage <= 4) {
+        showPage(newPage);
+      }
+    }
+
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', initProducts);
+  </script>
 </body>
 </html>
